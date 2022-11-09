@@ -97,4 +97,8 @@ c:Toggle("TOGGLE",function(bool)
             me.Character.HumanoidRootPart.CFrame = final
         end
     end)
+    if toggle2 == false then
+        mindist = math.huge
+    end
+    
 end)
